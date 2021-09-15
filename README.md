@@ -4,7 +4,7 @@
 
 
 # Screenshots
-![image-1](/home/ghost/git-files/bspwm-dotfiles/out.png)
+![out](https://user-images.githubusercontent.com/68803793/133469925-28c809bf-5b56-40b8-9487-6bdf2a36cf79.png)
 
 # Applications needed
 - To apply themes, install the lxappearance program.
