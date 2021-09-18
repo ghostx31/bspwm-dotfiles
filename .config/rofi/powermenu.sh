@@ -28,7 +28,7 @@ case $chosen in
 			systemctl reboot
 			;;
     $lock)
-      dm-tool lock
+      ~/.config/scripts/lock.sh
       ;;
     $suspend)
 			mpc -q pause

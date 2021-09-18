@@ -5,25 +5,24 @@ xrandr --rate 144 &
 xsetroot -cursor_name left_ptr &
 lxpolkit &
 picom --experimental-backends &
-feh --bg-fill --randomize $HOME/Documents/Wallpapers/* &
+feh --bg-fill --randomize $HOME/Documents/Wallpapers/nordic-wallpapers/wallpapers/*  &
 $HOME/.config/polybar/launch.sh &
-kiall greenclip; greenclip daemon &
+xfce4-power-manager --no-daemon &
 #polybar main &
 
 bspc monitor -d I II III IV V 
 
 bspc config border_width         2
-bspc config window_gap          12
+bspc config window_gap           10
 bspc config gapless_monocle false
 bspc config borderless_monocle true
-bspc apply_floating_atom true
-bspc config history_aware_focus true
-bspc config split_ratio          0.52
+bspc config split_ratio          0.50
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
-bpsc config pointer_follows_focus true
+bspc config pointer_follows_focus true
 bspc config focus_follows_pointer true
 bspc config normal_border_color "#2E3340"
+bspc config pointer_motion_interval 7ms
 #bspc rule -a mplayer2 state=floating
 #bspc rule -a Kupfer.py focus=on
 #bspc rule -a Screenkey manage=off

@@ -1,5 +1,5 @@
 configuration {
-	font: "Source Code Pro for Powerline medium 11";
+	font: "JetBrainsMono Nerd Font medium 11";
 	show-icons: true;
 	icon-theme: "Papirus";
 	disable-history: false;

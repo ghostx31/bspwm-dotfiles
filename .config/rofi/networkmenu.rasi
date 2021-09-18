@@ -1,7 +1,7 @@
 configuration {
 	width: 500;
 	show-icons: true;
-	terminal: "kitty";
+	terminal: "alacritty";
 	auto-select: false;
 	theme: "nord";
 	display-run: " ";
@@ -10,7 +10,7 @@ configuration {
 	drun-display-format: "{icon} {name}";
 	font: "Source Code Pro for Powerline Medium 11";
 	modi: "window,run,drun";
-	show-icons: true;
+	show-icons: false;
 }
 
 @import "nord"
