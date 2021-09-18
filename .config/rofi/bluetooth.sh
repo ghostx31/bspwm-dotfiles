@@ -232,7 +232,8 @@ print_status() {
 
 print_short_status() {
 		if power_on; then
-				printf ''
+		dev_alias=$(bluetoothctl info "$1" | grep "Alias" | cut -d ':' -f 2)
+				printf '%s' "$dev_alias"
 		else
 				echo ""
 		fi
