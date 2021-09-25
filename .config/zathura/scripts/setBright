@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-bright=$(printf '%.0f' $1)
-ddcutil setvcp 10 $bright --display 1

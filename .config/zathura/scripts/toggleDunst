@@ -1,8 +1,0 @@
-#!/bin/bash
-dunstState="$(dunstctl is-paused)"
-if [[ $dunstState == "false" ]]; then
-dunstctl set-paused true
-
-else
-dunstctl set-paused false && notify-send "Dunst switched ON"
-fi

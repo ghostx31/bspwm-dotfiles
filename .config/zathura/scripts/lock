@@ -1,2 +1,0 @@
-#/usr/bin/env sh
-mpc --quiet pause && qdbus org.kde.ksmserver /ScreenSaver org.freedesktop.ScreenSaver.Lock
