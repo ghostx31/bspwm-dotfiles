@@ -1,0 +1,8 @@
+#/usr/bin/env sh
+
+#if playerctl --player=spotify status | grep -q '\[playing\]'; then
+if playerctl --player=spotify status | grep -q 'Playing'; then
+echo ""
+else
+echo "契" 
+fi

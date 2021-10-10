@@ -1,0 +1,9 @@
+configuration {
+	width: 1000;
+	show-icons: false;
+	auto-select: false;
+	display-clipboard: "  ";
+	font: "Source Code Pro for Powerline Medium 10";
+}
+
+@import "nord"
