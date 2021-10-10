@@ -4,6 +4,7 @@
 
 
 # Screenshots
+![out](https://user-images.githubusercontent.com/68803793/134754204-4c429dc2-217d-4982-9fc3-8062ebfe5606.png)
 
 
 # Applications installed
