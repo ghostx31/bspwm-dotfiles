@@ -1,0 +1,17 @@
+/* The default configuration incase none is specified */
+configuration {
+	width: 500;
+	show-icons: true;
+	terminal: "alacritty";
+	auto-select: false;
+	theme: "nord";
+	display-run: " ";
+	display-drun: "  ";
+	display-window: "  ";
+	drun-display-format: "{icon} {name}";
+	font: "JetBrainsMono Nerd Font Medium 11";
+	modi: "window,run,drun";
+}
+
+@import "nord"
+
