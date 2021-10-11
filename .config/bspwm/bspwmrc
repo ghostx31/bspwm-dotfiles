@@ -7,6 +7,12 @@ lxpolkit &
 picom --experimental-backends &
 feh --bg-fill --randomize $HOME/git-files/nordic-wallpapers/wallpapers/* &
 $HOME/.config/polybar/launch.sh &
+if [[ ! -f "$HOME/.cache/eww_launch.xyz" ]]; then
+  ./.config/scripts/loadEww
+else 
+  rm $HOME/.cache/eww_launch.xyz
+  ./.config/scripts/loadEww
+fi
 xfce4-power-manager --no-daemon &
 #polybar main &
 
