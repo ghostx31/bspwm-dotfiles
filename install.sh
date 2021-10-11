@@ -9,7 +9,7 @@ cp -r .config/* $HOME/.config/
 clear
 echo "Cloning Wallpapers:"; sleep 1;
 mkdir -p $HOME/Documents/Wallpapers
-git clone -C $HOME/Documents/Wallpapers clone https://github.com/linuxdotexe/nordic-wallpapers.git
+git -C $HOME/Documents/Wallpapers clone https://github.com/linuxdotexe/nordic-wallpapers.git
 sleep 1;
 clear
 echo "Installing theme and cursors: "

@@ -5,7 +5,7 @@ xrandr --rate 144 &
 xsetroot -cursor_name left_ptr &
 lxpolkit &
 picom --experimental-backends &
-feh --bg-fill --randomize $HOME/git-files/nordic-wallpapers/wallpapers/* &
+feh --bg-fill --randomize $HOME/Documents/nordic-wallpapers/wallpapers/* &
 $HOME/.config/polybar/launch.sh &
 if [[ ! -f "$HOME/.cache/eww_launch.xyz" ]]; then
   ./.config/scripts/loadEww
